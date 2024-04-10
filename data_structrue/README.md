@@ -15,16 +15,16 @@ key->address
 # 20行以内的数据结构或算法
 
 ## 快排
-'3' 5 1 4 9 8 2 6
-base=3
-l=6 l>=base l--
-l=2 l<base 
-r=3 r<=base r++
-r=5 r>base
-swap l,r
-'3' 2 1 4 9 8 5 6
-...
-1 2 '3' 4 9 8 5 6 // 3已经放好位置，即3之后的元素都比3大，3之前的元素都比3小
+'3' 5 1 4 9 8 2 6  
+base=3  
+l=6 l>=base l--  
+l=2 l<base   
+r=3 r<=base r++  
+r=5 r>base  
+swap l,r  
+'3' 2 1 4 9 8 5 6  
+...   
+1 2 '3' 4 9 8 5 6 // 3已经放好位置，即3之后的元素都比3大，3之前的元素都比3小  
 
 ```
 void quicksort(vector<int>& nums, int left, int right)
@@ -47,7 +47,7 @@ void quicksort(vector<int>& nums, int left, int right)
 ### 应用
 排序数组（912 https://leetcode.cn/problems/sort-an-array/description/）  
 找第k大元素（LCR 076 https://leetcode.cn/problems/xx4gT2/description/）   
-找前k大元素（面试题 17.14 https://leetcode.cn/problems/smallest-k-lcci/description/）
+找前k大元素（面试题 17.14 https://leetcode.cn/problems/smallest-k-lcci/description/）  
 
 ## （二叉）堆
 '0' 1 2 3 4 5 6  
