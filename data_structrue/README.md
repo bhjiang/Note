@@ -45,16 +45,16 @@ void quicksort(vector<int>& nums, int left, int right)
 }
 ```
 ### 应用
-排序数组（912 https://leetcode.cn/problems/sort-an-array/description/）
-找第k大元素（LCR 076 https://leetcode.cn/problems/xx4gT2/description/）
+排序数组（912 https://leetcode.cn/problems/sort-an-array/description/）  
+找第k大元素（LCR 076 https://leetcode.cn/problems/xx4gT2/description/）   
 找前k大元素（面试题 17.14 https://leetcode.cn/problems/smallest-k-lcci/description/）
 
 ## （二叉）堆
-'0' 1 2 3 4 5 6
-len=7-1,从下标1开始
-叶子节点：i>len/2
-i的父亲：i/2
-i的左右孩子：2\*i, 2\*i+1
+'0' 1 2 3 4 5 6  
+len=7-1,从下标1开始  
+叶子节点：i>len/2  
+i的父亲：i/2  
+i的左右孩子：2*i, 2*i+1  
 
 ```
 \\ 插入操作，向上调整
