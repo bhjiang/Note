@@ -76,7 +76,7 @@ void up(vector<int>& heap, int i)
 // 向下调整
 void down(vector<int>& heap, int i, int len)
 {
-    while(i<len)
+    while(2*(i+1)-1<len)
     {
         int l=2*(i+1)-1;
         if(l+1<len&&heap[l+1]>heap[l]) l++;
