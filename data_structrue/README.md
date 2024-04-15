@@ -1,16 +1,16 @@
-# hash(unordered_map<>)
+# hash(unordered_map)
 key->address
 
-# heap(priority_queue<>)
+# heap(priority_queue)
 
 # binary search tree
 
 # linked list
 ## 一般都要求原地操作，即O(1)空间复杂度
 
-# stack(stack<>)
+# stack
 
-# queue(queue<>)
+# queue
 
 # 20行以内的数据结构或算法
 
